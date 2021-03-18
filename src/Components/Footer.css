@@ -1,0 +1,109 @@
+.footer {
+  width: 100vw;
+  height: 30vh;
+  background-color: #000;
+}
+
+.wrapper {
+  /*width: 350px;
+  margin: 20px auto;*/
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0 0 100px !important;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px !important;
+  text-align: center;
+  font-size: 24px;
+  position: relative;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4);
+  transition: all 0.35s;
+}
+
+li:hover a {
+  color: #fb5660;
+}
+
+/* Effect 1 */
+
+.effect_1 li {
+  border: 2px solid #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+}
+
+.effect_1 li:after {
+  position: absolute;
+  content: "";
+  top: 3px;
+  right: 3px;
+  bottom: 3px;
+  left: 3px;
+  background: #fff;
+  border-radius: 50%;
+  transform-origin: 50% 50%;
+  transform: scale(0);
+  transition: all 0.35s;
+}
+
+.effect_1 li:hover:after {
+  transform: scale(1);
+}
+
+/* Effect 2 */
+
+.effect_2 li {
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  border: 2px solid #fff;
+  position: relative;
+}
+
+.effect_2 li:before,
+.effect_2 li:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  background: rgba(255, 255, 255, 0.8);
+  top: 3px;
+  bottom: 3px;
+  transition: all 0.35s;
+}
+
+.effect_2 li:before {
+  left: 3px;
+}
+
+.effect_2 li:after {
+  right: 3px;
+}
+
+.effect_2 a {
+  font-size: 18px;
+}
+
+.effect_2 li:hover:before,
+.effect_2 li:hover:after {
+  width: 75%;
+}

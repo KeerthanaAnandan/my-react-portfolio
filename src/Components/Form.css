@@ -1,0 +1,53 @@
+.form-wrap {
+  background-image: url("../assets/contactbg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 90vh;
+}
+.form {
+  width: 100vw;
+  height: 90vh;
+  background-color: #202020;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+}
+
+.form-area {
+  display: block;
+
+  width: 60vw;
+}
+.form-area input {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+
+  color: aliceblue;
+  padding: 10px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 70%;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  border: transparent;
+  outline: transparent;
+  border-bottom: 2px solid #f72359;
+}
+.form-area button {
+  display: block;
+  text-align: center;
+  width: min-content;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  background-color: #f72359;
+  color: #fff;
+  border: 2px solid #202020;
+  padding: 10px;
+}
