@@ -11,7 +11,7 @@ import ksalone from "../assets/ksalone.png";
 function Testimonial() {
   return (
     <div className="testimonial">
-      <h1 className="text-center m-1">Testimonials from Fiverr Clients</h1>
+      <h1 className="text-center text-secondary m-1">Testimonials from Fiverr Clients</h1>
       <Carousel >
         <Carousel.Item key="1" className="text-center">
      

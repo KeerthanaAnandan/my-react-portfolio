@@ -59,7 +59,7 @@ function Footer() {
         </ul>*/}
       </div>
       <div>
-        <h4 className="text-center"> Keerthana Anandan &copy;2021 </h4>
+        <h4 className="text-center text-secondary"> Keerthana Anandan &copy;2021 </h4>
       </div>
     </div>
   );

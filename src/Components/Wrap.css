@@ -1,0 +1,28 @@
+.wrap{
+    width:90vw;
+    background-color: rgb(220, 228, 228);
+    height: 90vh;
+    display: block;
+    margin: auto !important;
+    margin-top: 30px !important;
+   overflow: hidden;
+}
+
+.wrap-bg{
+    position: relative;
+    width:70vw !important;
+    height: 70vh !important;
+    background-image: url("../assets/smallbg4.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    display: block;
+    margin: auto !important;
+   
+  
+    margin-top: 7% !important;
+
+
+}

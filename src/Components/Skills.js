@@ -17,7 +17,7 @@ function Skills() {
     data-aos-easing="ease-in-out">
                      
 
-               <div class="skillContent jsSkill col-md-4 text-center">
+               <div class="skillContent jsSkill col-md-4 text-center" >
                       <i class="fab fa-react fa-5x"></i>
                       <h5><strong>React Js</strong></h5>
                       

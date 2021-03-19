@@ -1,4 +1,9 @@
 * {
   margin: 0 !important;
   padding: 0%;
+  
+}
+
+.active{
+  border-bottom:3px solid #f72539;
 }

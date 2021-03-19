@@ -5,7 +5,9 @@ import HeaderNav from "./Components/HeaderNav";
 import Body from "./Components/Body";
 import About from "./Components/About";
 import Portfolio from "./Components/Portfolio";
-import Testimonial from "./Components/Testimonial";
+//import Testimonial from "./Components/Testimonial";
+import CarouselSlide from "./Components/CarouselSlide";
+import Wrap from "./Components/Wrap";
 import Form from "./Components/Form";
 import Footer from "./Components/Footer";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -38,7 +40,8 @@ useEffect(() => {
        <About />
        <Skills />
        <Portfolio />
-       <Testimonial />
+       <Wrap />
+       
        <Form />
        <Footer />
        </Route>

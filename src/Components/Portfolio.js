@@ -23,15 +23,16 @@ function Portfolio() {
     }
 
     return (
-        <div className="portfolio" id="portfolio">
+        <div className="portfolio  text-center" id="portfolio">
             <br/>
             <br/>
-        <h1 className="text-center  text-light">Project Portfolio</h1>
+        <h1 className="text-center  text-dark">Project Portfolio</h1>
         <div className=" portfolio-single-card">
                 <Categories filter={filter} categories={categories} />
               <br/>
                 <SingleCard Items={menuItems}/>
                 </div>
+                <br/>
             </div>
      
     )

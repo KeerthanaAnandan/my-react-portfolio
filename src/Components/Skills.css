@@ -1,5 +1,5 @@
 .skills{
-
+    width: 100vw !important;
     height: max-content;
 }
 .skills-row{
@@ -10,3 +10,4 @@
   
     margin-top: 30px !important;
 }
+.color-facebook {background-color: #3b5998 !important;}

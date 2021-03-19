@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 100vw;
+  width: 100vw !important;
   height: 90vh;
 }
 .form {
@@ -33,7 +33,7 @@
   padding: 10px;
   margin-left: auto !important;
   margin-right: auto !important;
-  width: 70%;
+  width: 70% !important;
   margin-top: 20px !important;
   margin-bottom: 20px !important;
   border: transparent;
