@@ -8,10 +8,26 @@ import news from "../assets/newsgrid.png";
 import edge from "../assets/edge.png";
 import hotel from "../assets/hotelindex.png";
 import food from "../assets/food.png";
+import chat from "../assets/chat1.jpg";
+import movie from "../assets/movie.jpg"
 const portfoliodetails = [
 
 
-{   id:1,
+    {   id:11,
+        category:"React",
+        img:movie,
+        title:"Movie List App",
+        description:"Axios is used to fetch movie list from \"TMDB\". Redux and Firebase authentication is implemented for Signin ",
+        url:"https://movie-react-app.web.app/",
+    },
+    {   id:10,
+        category:"React",
+        img:chat,
+        title:"Whatsapp Clone App",
+        description:"Firebase database and context Hook is implemented and Firebase authentication is used for Google Signin",
+        url:"https://whatsapp-clone-8de4e.web.app/",
+    },
+{   id:9,
     category:"React",
     img:ecom,
     title:"E-commerce ReactJs Website",
@@ -19,14 +35,14 @@ const portfoliodetails = [
     url:"https://react-ecom-app-f98aa.web.app/",
 },
 
-{   id:2,
+{   id:8,
     category:"React",
     img:pic,
     title:"Photo Downloader",
     description:"Api app made with pixabay api which allows users to search for images and download images.",
     url:"https://pickyourpic.netlify.app",
 },
-{   id:3,
+{   id:7,
     category:"React",
     img:food,
     title:"Food Recipe Api",
@@ -43,7 +59,7 @@ const portfoliodetails = [
 },
 
 {
-    id:8,
+    id:5,
     category:"Javascript",
     img:pro,
     title:"Ecom JavaScript Website",
@@ -51,21 +67,21 @@ const portfoliodetails = [
     url:"https://kaykosmetics.netlify.app/",
 },
 {
-    id:7,
+    id:4,
     category:"Javascript",
     img:quiz,
     title:"Fiverr Quiz Apps",
     description:"Portfolio of some of the Quiz websites made for my fiverr clients using javascript and html5 and css.",
     url:"https://quizportfolio.netlify.app/",
 },
-{   id:9,
+{   id:3,
     category:"Html",
     img:news,
     title:"NewsGrid website",
     description:"Responsive Html website made with only html5 and css3 along with css grid and flexbox. ",
     url:"https://tender-almeida-f85508.netlify.app/",
 },
-{   id:9,
+{   id:2,
     category:"Html",
     img:praga,
     title:"Friend's Portfolio",
@@ -73,7 +89,7 @@ const portfoliodetails = [
     url:"https://stupefied-elion-4577ce.netlify.app/",
 },
 {
-    id:10,
+    id:1,
     category:"Html",
     img:edge,
     title:"Edgeledger Website",

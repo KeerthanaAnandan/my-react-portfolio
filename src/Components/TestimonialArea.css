@@ -1,0 +1,25 @@
+#testimonial  .slick-slider, #testimonial  .slick-track{
+   
+     
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .testimonial {
+      width: 650px !important;
+    }
+    .quote-icon {
+      font-size: 4rem;
+      margin-top: -50px;
+      margin-left: -40px;
+    }
+  
+    .post-link {
+      color: tomato;
+    }
+  
+    * {
+      outline: none;
+    }
+  

@@ -4,7 +4,7 @@ function Pdf() {
   return (
     <div>
       <embed
-        src="../assets/KeerthanaAnandanResume.pdf"
+        src="../assets/KeerthanaResume.pdf"
         type="application/pdf"
         width="100%"
         height="600px"

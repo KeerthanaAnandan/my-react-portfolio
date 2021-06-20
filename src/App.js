@@ -6,7 +6,8 @@ import Body from "./Components/Body";
 import About from "./Components/About";
 import Portfolio from "./Components/Portfolio";
 //import Testimonial from "./Components/Testimonial";
-import CarouselSlide from "./Components/CarouselSlide";
+// import TestimonialArea from "./Components/TestimonialArea";
+// import CarouselSlide from "./Components/CarouselSlide";
 import Wrap from "./Components/Wrap";
 import Form from "./Components/Form";
 import Footer from "./Components/Footer";
@@ -21,6 +22,7 @@ import WebviewerBackend from './Components/WebViewer';
 import mypdf from "./assets/Resume.pdf";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+// import Testimonial from './Components/Testimonial';
 
 
 function App() {
@@ -35,7 +37,7 @@ useEffect(() => {
       <div className="App">
         <Switch>
        <Route exact path="/"> 
-          <HeaderNav />
+         <HeaderNav />
        <Body />
        <About />
        <Skills />
@@ -43,7 +45,8 @@ useEffect(() => {
        <Wrap />
        
        <Form />
-       <Footer />
+         <Footer />
+         {/* <TestimonialArea /> */}
        </Route>
       
      
